@@ -15,6 +15,12 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
-        assertTrue( true );
+//        assertTrue( true );
+        int i=3/2;
+        System.out.println(i);
     }
+    
+    
+    
+    
 }
