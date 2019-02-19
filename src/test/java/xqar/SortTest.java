@@ -26,6 +26,12 @@ public class SortTest {
 		InsertionSort.sort(nums2);
 		log();
 	}
+	@Test
+	public void testMergeSort() {
+		nums=MergeSort.sort(nums);
+		nums2=MergeSort.sort(nums2);
+		log();
+	}
 	
 	
 	
